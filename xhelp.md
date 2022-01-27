@@ -4,6 +4,8 @@
 * Criando projeto
 [x] npx create-react-app app-react
 [x] npm i firebase@^8.8.1
+[x] npm install react-router-dom@5.x
+[x] npm uninstall react-router-dom 
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
