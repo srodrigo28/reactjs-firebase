@@ -21,7 +21,9 @@ function SignIn(){
                 <form onSubmit={handleSumit}>
                     <h1>Entrar</h1>
                     <input type="text" placeholder='exemplo@email.com' value={email} onChange={ (e)=> setEmail(e.target.value) }/>
+                    <br/>
                     <input type="password" placeholder='***************' value={password} onChange={ (e)=> setPassword(e.target.value) }/>
+                    <br/>
                     <button type="submit" >Entrar</button>
                 </form>
                 <Link to="/register">Criar uma conta</Link>
